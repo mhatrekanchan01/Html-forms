@@ -1,0 +1,22 @@
+h1{
+
+    font-family: Georgia, cursive;
+    font-size: 52px;
+    color: #000000;
+    font-weight: 400; /* 400 or 700 available */
+    text-align: center;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    margin: 10px;
+}
+.button{
+    display: inline-block;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+}

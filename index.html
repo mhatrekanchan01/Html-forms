@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>
+            HTML Form
+        </h1>
+    </header>
+    
+    <main>
+        <form action="html-forms.js" method="get">
+            <!-- Add the HTML input elements here -->
+            <div class="group">
+            <div class="item">
+                <label for="name">First name:</label>
+                <input id="name" type="text" name="name" />
+            </div>
+            <div class="item">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">                
+            </div>
+            <div class="item">
+                <label for="form-message">Your message:</label>
+                <textarea id="form-message" name="message"></textarea>
+            </div>    
+            <button type="submit">Submit</button>
+
+        </div>
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
