@@ -14,7 +14,6 @@ h1{
     margin: 10px;
 }
 .button{
-    display: inline-block;
     background-color: #4CAF50; /* Green */
   border: none;
   color: white;
